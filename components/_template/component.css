@@ -1,0 +1,47 @@
+/* ============================================================
+   COMPONENT: Component Name
+   Description: One-sentence description of what this component does.
+   ============================================================ */
+
+/* ── Tokens (override or extend from global tokens.css) ──── */
+.component-name {
+  --_bg: var(--color-neutral-0);
+  --_text: var(--color-neutral-900);
+  --_padding: var(--space-4);
+  --_radius: var(--radius-md);
+}
+
+/* ── Base Block ───────────────────────────────────────────── */
+.component-name {
+  background-color: var(--_bg);
+  color: var(--_text);
+  padding: var(--_padding);
+  border-radius: var(--_radius);
+}
+
+/* ── Elements ─────────────────────────────────────────────── */
+.component-name__inner {
+  /* Styles for inner element */
+}
+
+/* ── Modifiers ────────────────────────────────────────────── */
+.component-name--variant {
+  --_bg: var(--color-primary);
+  --_text: var(--color-neutral-0);
+}
+
+/* ── States ───────────────────────────────────────────────── */
+.component-name:hover {
+  /* Hover styles */
+}
+
+.component-name.is-active {
+  /* Active state styles */
+}
+
+/* ── Responsive ───────────────────────────────────────────── */
+@media (min-width: 768px) {
+  .component-name {
+    /* Tablet and up */
+  }
+}
